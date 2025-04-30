@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BankAccountTest" time="0.698" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ferna\Documents\testNg\demo\target\test-classes;C:\Users\ferna\Documents\testNg\demo\target\classes;C:\Users\ferna\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\ferna\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ferna\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ferna\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="user.country.format" value="MX"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\ferna\AppData\Local\Temp\surefire6490038079380142585\surefirebooter-20250430162407358_3.jar C:\Users\ferna\AppData\Local\Temp\surefire6490038079380142585 2025-04-30T16-24-07_193-jvmRun1 surefire-20250430162407358_1tmp surefire_0-20250430162407358_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ferna\Documents\testNg\demo\target\test-classes;C:\Users\ferna\Documents\testNg\demo\target\classes;C:\Users\ferna\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\ferna\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ferna\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ferna\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ferna"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ferna\Documents\testNg\demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ferna\AppData\Local\Temp\surefire6490038079380142585\surefirebooter-20250430162407358_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.14+7"/>
+    <property name="user.name" value="ferna"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.14+7"/>
+    <property name="localRepository" value="C:\Users\ferna\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\ferna\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.14"/>
+    <property name="user.dir" value="C:\Users\ferna\Documents\testNg\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="es"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\ferna\AppData\Local\Programs\Python\Launcher\;C:\Users\ferna\AppData\Local\Microsoft\WindowsApps;C:\Users\ferna\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ferna\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\ferna\AppData\Roaming\npm;C:\Users\ferna\AppData\Local\Microsoft\WinGet\Packages\cURL.cURL_Microsoft.Winget.Source_8wekyb3d8bbwe\curl-8.12.1_3-win64-mingw/bin;C:\oracle\instantclient;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.14+7"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testDeposit" classname="BankAccountTest" time="0.004">
+    <system-out><![CDATA[Initializing bank account tests
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testDepositWithParameters[100.0, 1100.0](1)" classname="BankAccountTest" time="0.0">
+    <system-out><![CDATA[Test completed with final balance: 1500.0
+]]></system-out>
+  </testcase>
+  <testcase name="testDepositWithParameters[500.0, 1500.0](2)" classname="BankAccountTest" time="0.0">
+    <system-out><![CDATA[Test completed with final balance: 1100.0
+]]></system-out>
+  </testcase>
+  <testcase name="testDepositWithParameters[1000.0, 2000.0](3)" classname="BankAccountTest" time="0.0">
+    <system-out><![CDATA[Test completed with final balance: 1500.0
+]]></system-out>
+  </testcase>
+  <testcase name="testInsufficientFunds" classname="BankAccountTest" time="0.0">
+    <system-out><![CDATA[Test completed with final balance: 2000.0
+]]></system-out>
+  </testcase>
+  <testcase name="testInsufficientFundsTransfer" classname="BankAccountTest" time="0.0">
+    <system-out><![CDATA[Test completed with final balance: 1000.0
+]]></system-out>
+  </testcase>
+  <testcase name="testNegativeDeposit" classname="BankAccountTest" time="0.0">
+    <system-out><![CDATA[Test completed with final balance: 1000.0
+]]></system-out>
+  </testcase>
+  <testcase name="testNegativeTransfer" classname="BankAccountTest" time="0.0">
+    <system-out><![CDATA[Test completed with final balance: 1000.0
+]]></system-out>
+  </testcase>
+  <testcase name="testNegativeWithdraw" classname="BankAccountTest" time="0.0">
+    <system-out><![CDATA[Test completed with final balance: 1000.0
+]]></system-out>
+  </testcase>
+  <testcase name="testWithdraw" classname="BankAccountTest" time="0.0">
+    <system-out><![CDATA[Test completed with final balance: 1000.0
+]]></system-out>
+  </testcase>
+  <testcase name="testWithdrawWithParameters[200.0](1)" classname="BankAccountTest" time="0.0">
+    <system-out><![CDATA[Test completed with final balance: 700.0
+]]></system-out>
+  </testcase>
+  <testcase name="testInitialBalance" classname="BankAccountTest" time="0.0">
+    <system-out><![CDATA[Test completed with final balance: 800.0
+]]></system-out>
+  </testcase>
+  <testcase name="testTransfer" classname="BankAccountTest" time="0.002">
+    <system-out><![CDATA[Test completed with final balance: 1000.0
+]]></system-out>
+  </testcase>
+  <testcase name="testMultipleOperations" classname="BankAccountTest" time="0.0">
+    <system-out><![CDATA[Test completed with final balance: 1000.0
+]]></system-out>
+  </testcase>
+</testsuite>

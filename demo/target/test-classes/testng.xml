@@ -1,0 +1,70 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BankAccountTestSuite">
+    <test name="BasicTests">
+        <groups>
+            <run>
+                <include name="basic"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.BankAccountTest"/>
+        </classes>
+    </test>
+
+    <test name="DepositTests">
+        <groups>
+            <run>
+                <include name="deposit"/>
+                <include name="parameterized"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.BankAccountTest"/>
+        </classes>
+    </test>
+
+    <test name="WithdrawTests">
+        <parameter name="withdrawAmount" value="300.0"/>
+        <groups>
+            <run>
+                <include name="withdraw"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.BankAccountTest"/>
+        </classes>
+    </test>
+
+    <test name="ExceptionTests">
+        <groups>
+            <run>
+                <include name="exceptions"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.BankAccountTest"/>
+        </classes>
+    </test>
+
+    <test name="ComplexTests">
+        <groups>
+            <run>
+                <include name="complex"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.BankAccountTest"/>
+        </classes>
+    </test>
+
+    <test name="NegativeTests">
+    <groups>
+        <run>
+            <include name="negative-tests"/>
+        </run>
+    </groups>
+    <classes>
+        <class name="com.example.BankAccountTest"/>
+    </classes>
+</test>
+</suite>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-30T16:24:08 CST" name="Surefire suite" finished-at="2025-04-30T16:24:08 CST" duration-ms="125">
+    <groups>
+      <group name="transfer">
+        <method signature="BankAccountTest.testInsufficientFundsTransfer()[pri:0, instance:BankAccountTest@1e730495]" name="testInsufficientFundsTransfer" class="BankAccountTest"/>
+        <method signature="BankAccountTest.testNegativeTransfer()[pri:0, instance:BankAccountTest@1e730495]" name="testNegativeTransfer" class="BankAccountTest"/>
+        <method signature="BankAccountTest.testTransfer()[pri:0, instance:BankAccountTest@1e730495]" name="testTransfer" class="BankAccountTest"/>
+      </group> <!-- transfer -->
+      <group name="parameterized">
+        <method signature="BankAccountTest.testDepositWithParameters(double,double)[pri:0, instance:BankAccountTest@1e730495]" name="testDepositWithParameters" class="BankAccountTest"/>
+        <method signature="BankAccountTest.testWithdrawWithParameters(double)[pri:0, instance:BankAccountTest@1e730495]" name="testWithdrawWithParameters" class="BankAccountTest"/>
+      </group> <!-- parameterized -->
+      <group name="complex">
+        <method signature="BankAccountTest.testMultipleOperations()[pri:0, instance:BankAccountTest@1e730495]" name="testMultipleOperations" class="BankAccountTest"/>
+      </group> <!-- complex -->
+      <group name="deposit">
+        <method signature="BankAccountTest.testDeposit()[pri:0, instance:BankAccountTest@1e730495]" name="testDeposit" class="BankAccountTest"/>
+      </group> <!-- deposit -->
+      <group name="positive-tests">
+        <method signature="BankAccountTest.testDeposit()[pri:0, instance:BankAccountTest@1e730495]" name="testDeposit" class="BankAccountTest"/>
+        <method signature="BankAccountTest.testWithdraw()[pri:0, instance:BankAccountTest@1e730495]" name="testWithdraw" class="BankAccountTest"/>
+        <method signature="BankAccountTest.testInitialBalance()[pri:0, instance:BankAccountTest@1e730495]" name="testInitialBalance" class="BankAccountTest"/>
+        <method signature="BankAccountTest.testTransfer()[pri:0, instance:BankAccountTest@1e730495]" name="testTransfer" class="BankAccountTest"/>
+      </group> <!-- positive-tests -->
+      <group name="basic">
+        <method signature="BankAccountTest.testInitialBalance()[pri:0, instance:BankAccountTest@1e730495]" name="testInitialBalance" class="BankAccountTest"/>
+      </group> <!-- basic -->
+      <group name="negative-tests">
+        <method signature="BankAccountTest.testInsufficientFunds()[pri:0, instance:BankAccountTest@1e730495]" name="testInsufficientFunds" class="BankAccountTest"/>
+        <method signature="BankAccountTest.testInsufficientFundsTransfer()[pri:0, instance:BankAccountTest@1e730495]" name="testInsufficientFundsTransfer" class="BankAccountTest"/>
+        <method signature="BankAccountTest.testNegativeDeposit()[pri:0, instance:BankAccountTest@1e730495]" name="testNegativeDeposit" class="BankAccountTest"/>
+        <method signature="BankAccountTest.testNegativeTransfer()[pri:0, instance:BankAccountTest@1e730495]" name="testNegativeTransfer" class="BankAccountTest"/>
+        <method signature="BankAccountTest.testNegativeWithdraw()[pri:0, instance:BankAccountTest@1e730495]" name="testNegativeWithdraw" class="BankAccountTest"/>
+      </group> <!-- negative-tests -->
+      <group name="exceptions">
+        <method signature="BankAccountTest.testInsufficientFunds()[pri:0, instance:BankAccountTest@1e730495]" name="testInsufficientFunds" class="BankAccountTest"/>
+        <method signature="BankAccountTest.testNegativeDeposit()[pri:0, instance:BankAccountTest@1e730495]" name="testNegativeDeposit" class="BankAccountTest"/>
+        <method signature="BankAccountTest.testNegativeWithdraw()[pri:0, instance:BankAccountTest@1e730495]" name="testNegativeWithdraw" class="BankAccountTest"/>
+      </group> <!-- exceptions -->
+      <group name="withdraw">
+        <method signature="BankAccountTest.testWithdraw()[pri:0, instance:BankAccountTest@1e730495]" name="testWithdraw" class="BankAccountTest"/>
+      </group> <!-- withdraw -->
+    </groups>
+    <test started-at="2025-04-30T16:24:08 CST" name="Surefire test" finished-at="2025-04-30T16:24:08 CST" duration-ms="125">
+      <class name="BankAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="setUp" finished-at="2025-04-30T16:24:08 CST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeposit()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testDeposit" finished-at="2025-04-30T16:24:08 CST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeposit -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method signature="testDepositWithParameters(double,double)[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testDepositWithParameters" data-provider="depositData" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1100.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositWithParameters -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method signature="testDepositWithParameters(double,double)[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testDepositWithParameters" data-provider="depositData" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1500.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositWithParameters -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method signature="testDepositWithParameters(double,double)[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testDepositWithParameters" data-provider="depositData" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositWithParameters -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method signature="testInsufficientFunds()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testInsufficientFunds" finished-at="2025-04-30T16:24:08 CST" duration-ms="2" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Insufficient funds]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Insufficient funds
+at com.example.BankAccount.withdraw(BankAccount.java:17)
+at BankAccountTest.testInsufficientFunds(BankAccountTest.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsufficientFunds -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method signature="testInsufficientFundsTransfer()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testInsufficientFundsTransfer" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Insufficient funds for transfer]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Insufficient funds for transfer
+at com.example.BankAccount.transfer(BankAccount.java:27)
+at BankAccountTest.testInsufficientFundsTransfer(BankAccountTest.java:89)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsufficientFundsTransfer -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method signature="testNegativeDeposit()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testNegativeDeposit" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Deposit amount must be positive]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Deposit amount must be positive
+at com.example.BankAccount.deposit(BankAccount.java:11)
+at BankAccountTest.testNegativeDeposit(BankAccountTest.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeDeposit -->
+        <test-method signature="testNegativeTransfer()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testNegativeTransfer" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Transfer amount must be positive]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Transfer amount must be positive
+at com.example.BankAccount.transfer(BankAccount.java:26)
+at BankAccountTest.testNegativeTransfer(BankAccountTest.java:81)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeTransfer -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method signature="testWithdraw()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testWithdraw" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdraw -->
+        <test-method signature="testNegativeWithdraw()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testNegativeWithdraw" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Withdrawal amount must be positive]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Withdrawal amount must be positive
+at com.example.BankAccount.withdraw(BankAccount.java:16)
+at BankAccountTest.testNegativeWithdraw(BankAccountTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeWithdraw -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method signature="testInitialBalance()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testInitialBalance" finished-at="2025-04-30T16:24:08 CST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialBalance -->
+        <test-method signature="testWithdrawWithParameters(double)[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testWithdrawWithParameters" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdrawWithParameters -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method signature="testTransfer()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testTransfer" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransfer -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method signature="testMultipleOperations()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="testMultipleOperations" finished-at="2025-04-30T16:24:08 CST" depends-on-methods="BankAccountTest.testWithdraw, BankAccountTest.testDeposit" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleOperations -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="prepareTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method is-config="true" signature="cleanUpTest()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="cleanUpTest" finished-at="2025-04-30T16:24:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BankAccountTest@1e730495]" started-at="2025-04-30T16:24:08 CST" name="tearDown" finished-at="2025-04-30T16:24:08 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BankAccountTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
